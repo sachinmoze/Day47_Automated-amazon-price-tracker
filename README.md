@@ -1,4 +1,4 @@
-# Day47_Automated-amazon-price-tracker
+# Automated-amazon-price-tracker
 Amazon automated product price tracker using python and selenium
 Get the price from amazon webiste of any product
 compare thge price of the product with your budget range
