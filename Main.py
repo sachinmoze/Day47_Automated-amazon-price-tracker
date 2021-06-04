@@ -23,8 +23,8 @@ product_price = float(price_name)
 print(product_price)
 title= soup.find("span",id="productTitle").getText().strip()
 print(title)
-my_email = "bablu.moze@gmail.com"
-password = "April*13041995"
+my_email = EMAIL
+password = PASSWORD
 if product_price > 35000:
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection = smtplib.SMTP("smtp.gmail.com", port=587)
